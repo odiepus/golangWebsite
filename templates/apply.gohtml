@@ -1,6 +1,6 @@
 {{template "header"}}
 
-<h1>INDEX</h1>
+<h1>APPLY</h1>
 
 <nav>
   <ul>
@@ -12,5 +12,10 @@
   </ul>
 
 </nav>
+
+<form action="/apply" method="post">
+  <input type="text" name="firstname" id="fname">
+  <input type="submit">
+</form>
 
 {{template "footer"}}
